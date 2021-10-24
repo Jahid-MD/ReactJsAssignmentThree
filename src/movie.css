@@ -1,0 +1,52 @@
+body {
+  background-color: #1e2931;
+  color: #fff;
+  font-family: sans-serif;
+  font-style: 1rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.search{
+  text-align:center;
+  margin:30px 0; 
+}
+.search input{
+  width:80%;
+  height:35px;
+  background-color:#131B20;
+  border:1px solid transparent ;
+  border-radius:3px;
+  text-align:center;
+  color:white;
+}
+.movie-box{
+  display:flex;
+  flex-wrap:wrap;
+  margin : 10px auto;
+}
+.movie{
+width: 155px;
+box-shadow:1px 1px 3px rgba(0,0,0,0.2);
+box-sizing: border-box;
+ margin:8px;
+  cursor:pointer;
+}
+
+.movie:hover{
+  box-shadow:0px 0px 10px #333;
+}
+.movie figure{
+  margin :0;
+}
+.movie img{
+  width:100%;
+}
+
+.movie-title{
+  text-align:center;
+  margin-bottom:15px;
+  font-size:12px;
+  font-weight:400;
+}
